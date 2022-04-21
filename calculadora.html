@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Calculadora de días vividos</h2>
+    <label>
+        ¿Cuál es su edad?:
+        <br>
+        <input type="number" id="edad">
+    </label>
+    <br>
+
+    <input type="button" value="responder" onclick="alert('Así que ya has vivido unos ' + diasEdad() )">
+
+    <br>
+
+    <h2>Calculadora de snacks</h2>
+    <br>
+    <label>
+        ¿Cuántos años crees que vivirás?:
+        <br>
+        <input type="number" id="espectativa">
+    </label>
+    <br>
+
+    <label>
+        ¿Cuál es tu snack favorito?:
+        <br>
+        <input type="text" id="snackFav">
+    </label>
+    <br>
+
+    <label>
+        ¿Cuántos snacks comes a diario?:
+        <br>
+        <input type="number" id="snackDia">
+    </label>
+
+    <br>
+
+    <input type="button" value="¿Cuánto snack necesito?" onclick="alert('Necesitarás comprar unos ' + snackComprar() )">
+
+    <br>
+
+
+    <script type="text/JavaScript" src="calculadora.js"></script>
+</body>
+</html>
