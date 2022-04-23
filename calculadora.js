@@ -10,7 +10,7 @@ function diasEdad() {
 
 function snackComprar() {
   
-    var especVida = parseInt(document.getElementById("espectativa").value);
+    var expecVida = parseInt(document.getElementById("expectativa").value);
 
     var snackDiario = parseInt(document.getElementById("snackDia").value);
 
@@ -20,7 +20,7 @@ function snackComprar() {
 
     var añosVividos = parseInt(document.getElementById("edad").value);
 
-    var añosPorVivir = especVida - añosVividos;
+    var añosPorVivir = expecVida - añosVividos;
 
     var snackFaltantes = añosPorVivir * snackAño;
 
@@ -28,5 +28,5 @@ function snackComprar() {
 
     var gastoSnack = precioSnack * añosPorVivir * 365
 
-    return snackFaltantes + ' ' +snackFavorito + ' para que te alcancen hasta los ' + especVida + ' años y te gastarás unos ' + gastoSnack + " pesos ... y tal vez unos pocos más eh! Acompáñales con una buena película y que viva el Sabor!!"
+    return snackFaltantes + ' ' +snackFavorito + ' para que te alcancen hasta los ' + expecVida + ' años y te gastarás unos ' + gastoSnack + " pesos ... y tal vez unos pocos más eh! Acompáñales con una buena película y que viva el Sabor!!"
 }
